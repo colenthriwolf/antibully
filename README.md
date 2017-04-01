@@ -14,12 +14,18 @@ sudo apt-get install -y nodejs
 
 
 Step 1: Open config.json
+
 Step 2: Grab a discord bot token. You can do this from the developer portal by creating an application.
+
 Step 3: Put the token in the quotes next to token.
-Step 4 (optional): If you want to disable the profanity filter (enabled by default) change "'disableswears' = '1'" to "'disableswears' = '0'" in the file "config.json"
-Step 4b (optional): If you want to log every message instead of just the ones that get bans, change "'log' = '0'" to "'log' = '1'" in the same file.
+Step 4 (optional): If you want to disable the profanity filter (enabled by default) change disableswears to 0.
+
+Step 4b (optional): If you want to log every message instead of just the ones that get bans, change log to 1.
+
 Step 5: If on Windows, run the file "start.bat"
+
 Step 5b: If on another OS, run the command "node bot.js".
+
 Step 6: Add your bot to your server. Copy this and replace "id-here" with your bot ID. (on the dev portal!)
 
 
